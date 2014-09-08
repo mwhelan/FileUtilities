@@ -42,8 +42,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DirectoryRenamer.cs" />
+    <Compile Include="DirectoryOperation.cs" />
+    <Compile Include="SeasonDirectoryQuery.cs" />
+    <Compile Include="IDirectoryAction.cs" />
+    <Compile Include="IDirectoryQuery.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RenameSeasonDirectoryAction.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
